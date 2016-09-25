@@ -30,7 +30,8 @@
 #define LIBVLCQT_QML_MODULE "vlcqmlplugin"
 
 // libVLC this library is built with
-#define LIBVLC_VERSION 2
+//                      ((maj << 24) | (min << 16) | (rev << 8) | (extra))
+#define LIBVLC_VERSION  ((2 << 24) | (2 << 16) | (5 << 8) | (extra))
 
 
 #define VLCQT_CORE_LIBRARY
