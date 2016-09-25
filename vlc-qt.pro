@@ -4,8 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += widgets declarative qml quick network opengl
-CONFIG += c++14
+QT       += widgets qml quick network opengl
 
 INCLUDEPATH = ./src /usr/include/vlc/plugins
 TARGET = vlc-qt
