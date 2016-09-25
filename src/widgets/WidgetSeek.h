@@ -19,11 +19,7 @@
 #ifndef VLCQT_WIDGETSEEK_H_
 #define VLCQT_WIDGETSEEK_H_
 
-#if QT_VERSION >= 0x050000
-#include <QtWidgets/QWidget>
-#else
-#include <QtGui/QWidget>
-#endif
+#include <QWidget>
 
 #include "SharedExportWidgets.h"
 

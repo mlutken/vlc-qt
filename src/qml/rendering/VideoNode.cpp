@@ -20,7 +20,7 @@
 * along with this library. If not, see <http://www.gnu.org/licenses/>.
 *****************************************************************************/
 
-#include "rendering/VideoNode.h"
+#include "qml/rendering/VideoNode.h"
 
 VideoNode::VideoNode()
     : _geometry(QSGGeometry::defaultAttributes_TexturedPoint2D(), 4)

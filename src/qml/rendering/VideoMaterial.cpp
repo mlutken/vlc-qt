@@ -22,8 +22,8 @@
 
 #include "core/YUVVideoFrame.h"
 
-#include "rendering/VideoMaterial.h"
-#include "rendering/VideoMaterialShader.h"
+#include "qml/rendering/VideoMaterial.h"
+#include "qml/rendering/VideoMaterialShader.h"
 
 VideoMaterial::VideoMaterial()
     : _frame(0)

@@ -20,8 +20,8 @@
 * along with this library. If not, see <http://www.gnu.org/licenses/>.
 *****************************************************************************/
 
-#include "rendering/VideoMaterial.h"
-#include "rendering/VideoMaterialShader.h"
+#include "qml/rendering/VideoMaterial.h"
+#include "qml/rendering/VideoMaterialShader.h"
 
 char const *const *VideoMaterialShader::attributeNames() const
 {

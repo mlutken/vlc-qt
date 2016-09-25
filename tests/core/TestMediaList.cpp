@@ -18,8 +18,8 @@
 
 #include <QtTest/QtTest>
 
-#include "TestsConfig.h"
-#include "TestsCommon.h"
+#include "tests/TestsConfig.h"
+#include "tests/common/TestsCommon.h"
 
 #include "core/Audio.h"
 #include "core/Media.h"

@@ -18,7 +18,7 @@
 
 #include <QtTest/QtTest>
 
-#include "TestsCommon.h"
+#include "tests/common/TestsCommon.h"
 #include "ui/Player.h"
 
 #include "core/Media.h"

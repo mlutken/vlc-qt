@@ -22,6 +22,7 @@
 #include <QtCore/QObject>
 #include <QtCore/QString>
 
+#include <core/Media.h>
 #include "Enums.h"
 #include "SharedExportCore.h"
 

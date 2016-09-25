@@ -1,6 +1,6 @@
 /****************************************************************************
 * VLC-Qt - Qt and libvlc connector library
-* Copyright (C) 2016 Tadej Novak <tadej@tano.si>
+* Copyright (C) 2012 Tadej Novak <tadej@tano.si>
 *
 * This library is free software: you can redistribute it and/or modify
 * it under the terms of the GNU Lesser General Public License as published
@@ -16,13 +16,24 @@
 * along with this library. If not, see <http://www.gnu.org/licenses/>.
 *****************************************************************************/
 
-#include <QtQuickTest/quicktest.h>
+#ifndef VLCQT_CONFIG_H_
+#define VLCQT_CONFIG_H_
 
-#include "tests/TestsConfig.h"
+// Version
+#define LIBVLCQT_VERSION "VLCQT_VERSION_TODO"
+#define LIBVLCQT_VERSION_VCS "PROJECT_VERSION_VCS_TODO"
 
-#if STATIC_BUILD
-#include <QtPlugin>
-Q_IMPORT_PLUGIN(VLCQtPlugin)
-#endif
+#define LIBVLCQT_VERSION_MAJOR 1
+#define LIBVLCQT_VERSION_MINOR 1
+#define LIBVLCQT_VERSION_PATCH 0
 
-QUICK_TEST_MAIN(player)
+#define LIBVLCQT_QML_MODULE "vlcqmlplugin"
+
+// libVLC this library is built with
+#define LIBVLC_VERSION 2
+
+
+#define VLCQT_CORE_LIBRARY
+#define VLCQT_QML_LIBRARY
+
+#endif // VLCQT_CONFIG_H_

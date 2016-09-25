@@ -16,13 +16,12 @@
 * along with this library. If not, see <http://www.gnu.org/licenses/>.
 *****************************************************************************/
 
-#include <QtQuickTest/quicktest.h>
+#ifndef VLCQT_TESTSCONFIG_H_
+#define VLCQT_TESTSCONFIG_H_
 
-#include "tests/TestsConfig.h"
+#define STATIC_BUILD 1
+#define SAMPLES_DIR "./samples/"
+#define LIBVLC_PLUGINS_DIR "LIBVLC_PLUGINS_DIR_TODO"
 
-#if STATIC_BUILD
-#include <QtPlugin>
-Q_IMPORT_PLUGIN(VLCQtPlugin)
-#endif
+#endif // VLCQT_TESTSCONFIG_H_
 
-QUICK_TEST_MAIN(player)

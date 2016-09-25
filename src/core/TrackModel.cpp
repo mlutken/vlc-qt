@@ -27,8 +27,9 @@ VlcTrackModel::VlcTrackModel(const QMap<int, QString> &tracks,
       _tracks(tracks) {}
 
 VlcTrackModel::VlcTrackModel(const VlcTrackModel &other)
+    : QAbstractListModel(other.parent()),
+     _tracks(other._tracks)
 {
-    _tracks = other._tracks;
 }
 
 int VlcTrackModel::rowCount(const QModelIndex &parent) const

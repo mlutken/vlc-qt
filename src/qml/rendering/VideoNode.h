@@ -27,7 +27,7 @@
 
 #include <QtQuick/QSGGeometryNode>
 
-#include "rendering/VideoMaterial.h"
+#include "qml/rendering/VideoMaterial.h"
 
 class VideoNode : public QSGGeometryNode // LCOV_EXCL_LINE
 {

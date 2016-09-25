@@ -18,7 +18,7 @@
 
 #include <QtTest/QtTest>
 
-#include "TestsConfig.h"
+#include "tests/TestsConfig.h"
 
 #include "core/Common.h"
 #include "core/Instance.h"
